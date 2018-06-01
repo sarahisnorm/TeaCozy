@@ -4,6 +4,7 @@
   font-family: "Helvetica", sans-serif;
   font-size: 22px;
   color: seashell;
+  background-color: black;
 }
 
 /* header styles */
@@ -11,6 +12,7 @@
 header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   position: fixed;
   width: 100%;
   height: 69px;
