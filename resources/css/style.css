@@ -40,7 +40,7 @@ nav .top {
   text-align: right;
 }
 
-/* main section */
+/* main section shared styles*/
 
 main {
   display: flex;
@@ -67,7 +67,7 @@ main {
 /* mission banner styles */
 
 #mission {
-  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg');
+  background-image: url('../images/img-mission-background.jpg');
   height: 700px;
   width:1200px;
   display: flex;
@@ -85,7 +85,7 @@ main {
   flex-direction: column;
   justify-content: center;
   width: 1000px;
-  margin: 0 100px 120px 100px;
+  margin: 0 auto 120px auto;
 }
 
 .tea img {
@@ -97,7 +97,7 @@ main {
 /* Locations styles */
 
 #locations {
-  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg');
+  background-image: url('../images/img-locations-background.jpg');
   background-position: center top;
   height: 500px;
   width: 1200px;
