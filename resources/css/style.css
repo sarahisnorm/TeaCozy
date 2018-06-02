@@ -3,24 +3,17 @@
   padding: 0;
   font-family: "Helvetica", sans-serif;
   color: seashell;
-  background-color: black
-}
-
-h2 {
-  font-size: 22px;
-}
-
-h2,
-h3,
-h4,
-h5,
-p {
+  background-color: black;
   text-align: center;
+}
+
+body {
+    font-size: 22px;
 }
 
 h2,
 h4 {
-  padding: 5px 0;
+  padding: 10px 10px;
 }
 
 /* header styles */
@@ -43,7 +36,8 @@ header {
 }
 
 nav .top {
-  padding: 0 10px;
+  padding: 20px 10px;
+  text-align: right;
 }
 
 /* main section */
@@ -53,6 +47,21 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.options,
+.tea,
+.shop {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: transparent;
 }
 
 /* mission banner styles */
@@ -76,22 +85,7 @@ main {
   flex-direction: column;
   justify-content: center;
   width: 1000px;
-  margin: 0 auto 120px auto;
-}
-
-.options,
-.tea,
-.shop {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.row {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  background-color: transparent;
+  margin: 0 100px 120px 100px;
 }
 
 .tea img {
@@ -129,7 +123,7 @@ main {
 }
 
 .store p {
-  padding: 30px 0;
+  padding: 20px 0;
 }
 
 /* contact styles */
@@ -143,4 +137,12 @@ main {
 #contact h5 {
   padding-top: 20px;
   padding-bottom: 10px;
+}
+
+/* footer styles */
+
+footer h5 {
+  text-align:left;
+  margin-left: 20px;
+  height: 60px;
 }
